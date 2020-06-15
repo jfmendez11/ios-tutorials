@@ -8,22 +8,12 @@
 
 import Foundation
 
-class Concentration {
+struct Concentration {
     private(set) var cards = [Card]()
     
     private var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
-            var foundIndex: Int?
-            for index in cards.indices {
-                if cards[index].isFaceUp {
-                    if foundIndex == nil {
-                        foundIndex = index
-                    } else {
-                        return nil
-                    }
-                }
-            }
-            return foundIndex
+            return cards.indices.filter { cards[$0].isFaceUp }.theOneAndOnly
         }
         set {
             for index in cards.indices {
@@ -32,12 +22,12 @@ class Concentration {
         }
     }
     
-    func chooseCard(at index: Int) {
+    mutating func chooseCard(at index: Int) {
         assert(cards.indices.contains(index), "Concentration.chooseCard(at:\(index): Choosen index not in the cards")
         if !cards[index].isMathced {
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index {
                 // check if cards match
-                if cards[matchIndex].identifier == cards[index].identifier {
+                if cards[matchIndex] == cards[index] {
                     cards[matchIndex].isMathced = true
                     cards[index].isMathced = true
                 }
@@ -55,5 +45,11 @@ class Concentration {
             let card = Card()
             cards += [card, card]
         }
+    }
+}
+
+extension Collection {
+    var theOneAndOnly: Element? {
+        return count == 1 ? first : nil
     }
 }
