@@ -15,11 +15,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="bXj-gy-NOY" customClass="PlayingCardView" customModule="PlayingCard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="154" width="374" height="598"/>
+                            <view opaque="NO" contentMode="redraw" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXj-gy-NOY" customClass="PlayingCardView" customModule="PlayingCard" customModuleProvider="target">
+                                <rect key="frame" x="41" y="101" width="106" height="151"/>
+                                <subviews>
+                                    <view opaque="NO" contentMode="redraw" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="28a-qf-lEZ" customClass="PlayingCardView" customModule="PlayingCard" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="151"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" priority="750" constant="800" id="K08-j8-x1I"/>
+                                            <constraint firstAttribute="width" secondItem="28a-qf-lEZ" secondAttribute="height" multiplier="5:8" id="vfD-JU-7Ar"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="suit" value="♣️"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" priority="750" constant="800" id="5ZZ-uu-Blr"/>
+                                    <constraint firstItem="28a-qf-lEZ" firstAttribute="width" secondItem="28a-qf-lEZ" secondAttribute="height" multiplier="5:8" id="NW1-PT-beg"/>
                                     <constraint firstAttribute="width" secondItem="bXj-gy-NOY" secondAttribute="height" multiplier="5:8" id="chW-Yp-ovN"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -34,9 +51,7 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="bXj-gy-NOY" secondAttribute="bottom" constant="20" id="1CH-FF-ppl"/>
-                            <constraint firstItem="bXj-gy-NOY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Gn9-Oo-Hj2"/>
                             <constraint firstItem="bXj-gy-NOY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="tM9-fE-1Zs"/>
-                            <constraint firstItem="bXj-gy-NOY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xg2-xW-S48"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bXj-gy-NOY" secondAttribute="trailing" constant="20" id="y5Y-0d-W1G"/>
                             <constraint firstItem="bXj-gy-NOY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yYn-bo-1cF"/>
                         </constraints>
