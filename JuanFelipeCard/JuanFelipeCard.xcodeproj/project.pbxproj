@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58BD67CA24ABAC280001A350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BD67C924ABAC280001A350 /* AppDelegate.swift */; };
+		58BD67CC24ABAC280001A350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BD67CB24ABAC280001A350 /* SceneDelegate.swift */; };
+		58BD67CE24ABAC280001A350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BD67CD24ABAC280001A350 /* ContentView.swift */; };
+		58BD67D024ABAC2A0001A350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67CF24ABAC2A0001A350 /* Assets.xcassets */; };
+		58BD67D324ABAC2A0001A350 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67D224ABAC2A0001A350 /* Preview Assets.xcassets */; };
+		58BD67D624ABAC2B0001A350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67D424ABAC2B0001A350 /* LaunchScreen.storyboard */; };
+		58BD67DE24ABACB00001A350 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67DD24ABACB00001A350 /* README.md */; };
+		58BD680624ABB0D80001A350 /* RobotoMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67F824ABB0D80001A350 /* RobotoMono-ThinItalic.ttf */; };
+		58BD680724ABB0D80001A350 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67F924ABB0D80001A350 /* RobotoMono-Regular.ttf */; };
+		58BD680824ABB0D80001A350 /* RobotoMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67FA24ABB0D80001A350 /* RobotoMono-SemiBoldItalic.ttf */; };
+		58BD680924ABB0D80001A350 /* RobotoMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67FB24ABB0D80001A350 /* RobotoMono-Thin.ttf */; };
+		58BD680A24ABB0D80001A350 /* RobotoMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67FC24ABB0D80001A350 /* RobotoMono-ExtraLight.ttf */; };
+		58BD680B24ABB0D80001A350 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67FD24ABB0D80001A350 /* RobotoMono-Bold.ttf */; };
+		58BD680C24ABB0D80001A350 /* RobotoMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67FE24ABB0D80001A350 /* RobotoMono-LightItalic.ttf */; };
+		58BD680D24ABB0D80001A350 /* RobotoMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD67FF24ABB0D80001A350 /* RobotoMono-Medium.ttf */; };
+		58BD680E24ABB0D80001A350 /* RobotoMono-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD680024ABB0D80001A350 /* RobotoMono-ExtraLightItalic.ttf */; };
+		58BD680F24ABB0D80001A350 /* RobotoMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD680124ABB0D80001A350 /* RobotoMono-MediumItalic.ttf */; };
+		58BD681024ABB0D80001A350 /* RobotoMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD680224ABB0D80001A350 /* RobotoMono-SemiBold.ttf */; };
+		58BD681124ABB0D80001A350 /* RobotoMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD680324ABB0D80001A350 /* RobotoMono-Light.ttf */; };
+		58BD681224ABB0D80001A350 /* RobotoMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD680424ABB0D80001A350 /* RobotoMono-Italic.ttf */; };
+		58BD681324ABB0D80001A350 /* RobotoMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58BD680524ABB0D80001A350 /* RobotoMono-BoldItalic.ttf */; };
+		58BD681524ABBC030001A350 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BD681424ABBC030001A350 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58BD67C624ABAC270001A350 /* JuanFelipeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuanFelipeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BD67C924ABAC280001A350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58BD67CB24ABAC280001A350 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58BD67CD24ABAC280001A350 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58BD67CF24ABAC2A0001A350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58BD67D224ABAC2A0001A350 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58BD67D524ABAC2B0001A350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58BD67D724ABAC2B0001A350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58BD67DD24ABACB00001A350 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = JuanFelipeCard/README.md; sourceTree = "<group>"; };
+		58BD67F824ABB0D80001A350 /* RobotoMono-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ThinItalic.ttf"; sourceTree = "<group>"; };
+		58BD67F924ABB0D80001A350 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		58BD67FA24ABB0D80001A350 /* RobotoMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		58BD67FB24ABB0D80001A350 /* RobotoMono-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Thin.ttf"; sourceTree = "<group>"; };
+		58BD67FC24ABB0D80001A350 /* RobotoMono-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ExtraLight.ttf"; sourceTree = "<group>"; };
+		58BD67FD24ABB0D80001A350 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		58BD67FE24ABB0D80001A350 /* RobotoMono-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-LightItalic.ttf"; sourceTree = "<group>"; };
+		58BD67FF24ABB0D80001A350 /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Medium.ttf"; sourceTree = "<group>"; };
+		58BD680024ABB0D80001A350 /* RobotoMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		58BD680124ABB0D80001A350 /* RobotoMono-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-MediumItalic.ttf"; sourceTree = "<group>"; };
+		58BD680224ABB0D80001A350 /* RobotoMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		58BD680324ABB0D80001A350 /* RobotoMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Light.ttf"; sourceTree = "<group>"; };
+		58BD680424ABB0D80001A350 /* RobotoMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Italic.ttf"; sourceTree = "<group>"; };
+		58BD680524ABB0D80001A350 /* RobotoMono-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-BoldItalic.ttf"; sourceTree = "<group>"; };
+		58BD681424ABBC030001A350 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58BD67C324ABAC270001A350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58BD67BD24ABAC270001A350 = {
+			isa = PBXGroup;
+			children = (
+				58BD67DD24ABACB00001A350 /* README.md */,
+				58BD67C824ABAC270001A350 /* JuanFelipeCard */,
+				58BD67C724ABAC270001A350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58BD67C724ABAC270001A350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58BD67C624ABAC270001A350 /* JuanFelipeCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58BD67C824ABAC270001A350 /* JuanFelipeCard */ = {
+			isa = PBXGroup;
+			children = (
+				58BD67DF24ABB0350001A350 /* fonts */,
+				58BD67C924ABAC280001A350 /* AppDelegate.swift */,
+				58BD67CB24ABAC280001A350 /* SceneDelegate.swift */,
+				58BD67CD24ABAC280001A350 /* ContentView.swift */,
+				58BD681424ABBC030001A350 /* InfoView.swift */,
+				58BD67CF24ABAC2A0001A350 /* Assets.xcassets */,
+				58BD67D424ABAC2B0001A350 /* LaunchScreen.storyboard */,
+				58BD67D724ABAC2B0001A350 /* Info.plist */,
+				58BD67D124ABAC2A0001A350 /* Preview Content */,
+			);
+			path = JuanFelipeCard;
+			sourceTree = "<group>";
+		};
+		58BD67D124ABAC2A0001A350 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58BD67D224ABAC2A0001A350 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58BD67DF24ABB0350001A350 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				58BD67FD24ABB0D80001A350 /* RobotoMono-Bold.ttf */,
+				58BD680524ABB0D80001A350 /* RobotoMono-BoldItalic.ttf */,
+				58BD67FC24ABB0D80001A350 /* RobotoMono-ExtraLight.ttf */,
+				58BD680024ABB0D80001A350 /* RobotoMono-ExtraLightItalic.ttf */,
+				58BD680424ABB0D80001A350 /* RobotoMono-Italic.ttf */,
+				58BD680324ABB0D80001A350 /* RobotoMono-Light.ttf */,
+				58BD67FE24ABB0D80001A350 /* RobotoMono-LightItalic.ttf */,
+				58BD67FF24ABB0D80001A350 /* RobotoMono-Medium.ttf */,
+				58BD680124ABB0D80001A350 /* RobotoMono-MediumItalic.ttf */,
+				58BD67F924ABB0D80001A350 /* RobotoMono-Regular.ttf */,
+				58BD680224ABB0D80001A350 /* RobotoMono-SemiBold.ttf */,
+				58BD67FA24ABB0D80001A350 /* RobotoMono-SemiBoldItalic.ttf */,
+				58BD67FB24ABB0D80001A350 /* RobotoMono-Thin.ttf */,
+				58BD67F824ABB0D80001A350 /* RobotoMono-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58BD67C524ABAC270001A350 /* JuanFelipeCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58BD67DA24ABAC2B0001A350 /* Build configuration list for PBXNativeTarget "JuanFelipeCard" */;
+			buildPhases = (
+				58BD67C224ABAC270001A350 /* Sources */,
+				58BD67C324ABAC270001A350 /* Frameworks */,
+				58BD67C424ABAC270001A350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuanFelipeCard;
+			productName = JuanFelipeCard;
+			productReference = 58BD67C624ABAC270001A350 /* JuanFelipeCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58BD67BE24ABAC270001A350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Juan Felipe Méndez";
+				TargetAttributes = {
+					58BD67C524ABAC270001A350 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 58BD67C124ABAC270001A350 /* Build configuration list for PBXProject "JuanFelipeCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58BD67BD24ABAC270001A350;
+			productRefGroup = 58BD67C724ABAC270001A350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58BD67C524ABAC270001A350 /* JuanFelipeCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58BD67C424ABAC270001A350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BD680624ABB0D80001A350 /* RobotoMono-ThinItalic.ttf in Resources */,
+				58BD680D24ABB0D80001A350 /* RobotoMono-Medium.ttf in Resources */,
+				58BD680B24ABB0D80001A350 /* RobotoMono-Bold.ttf in Resources */,
+				58BD681124ABB0D80001A350 /* RobotoMono-Light.ttf in Resources */,
+				58BD67D624ABAC2B0001A350 /* LaunchScreen.storyboard in Resources */,
+				58BD680A24ABB0D80001A350 /* RobotoMono-ExtraLight.ttf in Resources */,
+				58BD681024ABB0D80001A350 /* RobotoMono-SemiBold.ttf in Resources */,
+				58BD681324ABB0D80001A350 /* RobotoMono-BoldItalic.ttf in Resources */,
+				58BD67D324ABAC2A0001A350 /* Preview Assets.xcassets in Resources */,
+				58BD680C24ABB0D80001A350 /* RobotoMono-LightItalic.ttf in Resources */,
+				58BD680F24ABB0D80001A350 /* RobotoMono-MediumItalic.ttf in Resources */,
+				58BD681224ABB0D80001A350 /* RobotoMono-Italic.ttf in Resources */,
+				58BD680824ABB0D80001A350 /* RobotoMono-SemiBoldItalic.ttf in Resources */,
+				58BD67DE24ABACB00001A350 /* README.md in Resources */,
+				58BD680924ABB0D80001A350 /* RobotoMono-Thin.ttf in Resources */,
+				58BD680E24ABB0D80001A350 /* RobotoMono-ExtraLightItalic.ttf in Resources */,
+				58BD67D024ABAC2A0001A350 /* Assets.xcassets in Resources */,
+				58BD680724ABB0D80001A350 /* RobotoMono-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58BD67C224ABAC270001A350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BD681524ABBC030001A350 /* InfoView.swift in Sources */,
+				58BD67CA24ABAC280001A350 /* AppDelegate.swift in Sources */,
+				58BD67CC24ABAC280001A350 /* SceneDelegate.swift in Sources */,
+				58BD67CE24ABAC280001A350 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58BD67D424ABAC2B0001A350 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58BD67D524ABAC2B0001A350 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58BD67D824ABAC2B0001A350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58BD67D924ABAC2B0001A350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58BD67DB24ABAC2B0001A350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JuanFelipeCard/Preview Content\"";
+				DEVELOPMENT_TEAM = V6P8CRBUFK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JuanFelipeCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jfmp.JuanFelipeCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58BD67DC24ABAC2B0001A350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JuanFelipeCard/Preview Content\"";
+				DEVELOPMENT_TEAM = V6P8CRBUFK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JuanFelipeCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jfmp.JuanFelipeCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58BD67C124ABAC270001A350 /* Build configuration list for PBXProject "JuanFelipeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58BD67D824ABAC2B0001A350 /* Debug */,
+				58BD67D924ABAC2B0001A350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58BD67DA24ABAC2B0001A350 /* Build configuration list for PBXNativeTarget "JuanFelipeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58BD67DB24ABAC2B0001A350 /* Debug */,
+				58BD67DC24ABAC2B0001A350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58BD67BE24ABAC270001A350 /* Project object */;
+}
